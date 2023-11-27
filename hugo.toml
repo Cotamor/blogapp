@@ -1,11 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://edasaki.net/'
 languageCode = 'en-us'
 title = 'Edasaki Blog'
+
+paginate = 4
 
 [params]
  description = "The fastest blog"
  dateFormat = "Jan 2, 2006"
+ favicon = false
 
 [taxonomies]
  category = "categories"
  author = "authors"
+
+[markup.goldmark.renderer]
+      hardWraps = true

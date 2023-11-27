@@ -9,3 +9,5 @@ categories = ["general", "coding"]
 authors = ["Junko"]
 avatar = "/images/avatar2.webp"
 +++
+
+test content2
